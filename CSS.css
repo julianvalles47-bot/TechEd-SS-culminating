@@ -1,28 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-
-    body {
+body {
   font-size: 13px;
   color: #2c2a29;
-  /* color */
-  /* accent-color  */
   accent-color: #b18c65;
-
-  /* i like this color  */
   font-family: Georgia, serif;
-  /* t joe is this a nice font */
 }
 
-/* background*/
+/* TOP BAR */
 .topnav {
   background-color: #333;
-  overflow: hidden;
+  display: flex;
+  justify-content: center; /* centers links horizontally */
+  align-items: center;
+  gap: 40px; /* spacing between links */
 }
 
-/* stable top bar style for links */
+/* LINKS */
 .topnav a {
   transition: 0.3s;
-  float: left;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -30,32 +26,29 @@
   font-size: 17px;
 }
 
-/* hover color */
+/* hover */
 .topnav a:hover {
-    transition: 0.3s;
   background-color: #ddd;
   color: black;
 }
 
-/* after button click */
+/* active */
 .topnav a.active {
   background-color: #04AA6D;
   color: white;
 }
-.titletest{
-    text-align: center;
-    font-size: 50px;
-    font-family: Times, serif;
+
+.titletest {
+  text-align: center;
+  font-size: 50px;
+  font-family: Times, serif;
 }
 
-.artdisplay{
-  padding:40px;
-  border:;
-  color:;
-  
+.artdisplay {
+  padding: 40px;
 }
 
-/* Base reset */
+/* RESET */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -63,8 +56,6 @@
 }
 
 html {
-  display: block;
-  height: auto;
   min-height: 100%;
   width: 100%;
   font-size: max(24px, 3vw);
@@ -75,27 +66,9 @@ html {
   background: white;
 }
 
-.body {
-  display: block;
+/* FIX: you wrote .body instead of body */
+body {
   min-height: 100vh;
-  overflow: hidden;
-}
-
-/* Smooth scroll (Lenis classes) */
-.lenis.lenis-smooth {
-  scroll-behavior: auto;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
 }
 
 /* Layout */
@@ -126,7 +99,6 @@ section {
   transition: transform 0.8s ease;
 }
 
-/* Active state (JS will add this) */
 .text-reveal.active .line {
   transform: translate3d(0, 0, 0);
 }
