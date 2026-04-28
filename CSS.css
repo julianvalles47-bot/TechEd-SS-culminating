@@ -53,3 +53,10 @@ text-wrap: balance;
 background: linear-gradient(45deg, #f06, #4a90e2);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent; }
+
+.artdisplay{
+  padding:40px;
+  border:;
+  color:;
+  
+}
