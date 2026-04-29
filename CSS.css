@@ -53,10 +53,19 @@ section {
   text-align: center;
 }
 
+.titlecontainerimage {
+  background-image: url("images/ocean.jpg")
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; /* Image stays behind text */
+}
+
 /* TITLE */
 .titletest {
   font-size: 3rem;
   font-family: Georgia, serif;
+  z-index: 2;
 }
 
 /* TEXT REVEAL ANIMATION */
