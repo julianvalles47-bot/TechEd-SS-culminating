@@ -84,6 +84,11 @@ body {
   transform: translateY(0);
 }
 
+.titlehomepage {
+  font-family: Georgia, serif;
+  margin: center;
+}
+
 .vastyle{
   background-image:url("backgroundva.webp");
   
