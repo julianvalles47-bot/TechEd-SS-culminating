@@ -41,12 +41,12 @@ body {
 }
 
 /* CENTER SECTION */
-section {
+/* section {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 52px); /* full height minus nav */
-}
+  height: calc(100vh - 52px);
+} /*
 
 /* CONTAINER */
 .container {
