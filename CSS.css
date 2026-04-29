@@ -83,7 +83,7 @@ body {
 }
 
 .vastyle{
-  background-image:backgroundva.webp;
+  background-image:url('backgroundva.webp');
   
 }
 .artdisplay{
