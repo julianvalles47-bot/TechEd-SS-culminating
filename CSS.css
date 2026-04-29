@@ -86,7 +86,7 @@ body {
 
 .titlehomepage {
   font-family: Georgia, serif;
-  margin: center;
+  justify-content: center;
 }
 
 .vastyle{
