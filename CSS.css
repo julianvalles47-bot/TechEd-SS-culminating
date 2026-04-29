@@ -111,7 +111,8 @@ font-size: 4rem;
 }
 
 .vadesc{
-  font-color:black;
+  font-color:#000000;
   font-sans:Georgia, serif;
   font-serif:Helvetica Neue;
+  margin:4px;
 }
