@@ -50,6 +50,7 @@ body {
 
 /* CONTAINER */
 .container {
+  top: 20px
   text-align: center;
 }
 
