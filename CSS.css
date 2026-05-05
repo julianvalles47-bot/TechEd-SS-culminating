@@ -107,11 +107,12 @@ font-size: 4rem;
 .artdisplay{
   background-color:white;
   margin:10px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 150px;
-  height: 75px;
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  width: 100%;
+  height: 35%;
+  justify-content:center;
   
   
   
