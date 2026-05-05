@@ -190,6 +190,14 @@ p {
 
 }
 
+.artwork{
+  display:flex;
+  overflow-x:auto;
+  white-space:nowrap;
+  scroll-snap-type:x mandatory;
+  overflow-y:hidden;
+}
+
 #CNTAIN {
   margin: 30px auto;
   max-width: 1000px;
