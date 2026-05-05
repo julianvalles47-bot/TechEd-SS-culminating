@@ -1,70 +1,56 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-     <link rel="stylesheet" href="CSS.css">
-<style> 
-  #CNTAIN{
-margin-top:300px;
-    margin-right:10%;
-      margin-left:10%;
-    margin-bottom:25px;
-    height:250px;
-border: 2px solid black;
-border-radius:10%;
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Studies</title>
+  <link rel="stylesheet" href="CSS.css">
+</head>
+<body class="fade-in">
+  <nav class="topnav">
+    <a href="pa.html">Performing Arts</a>
+    <a href="va.html">Visual Arts</a>
+    <a class="active" href="ss.html">Social Studies</a>
+    <a href="index.html">Home</a>
+  </nav>
 
-  }
-    
-  #LEABN{
-  backgrounhd-image:url(plchlder.png)
-  text-shadow: 6px 5px 5px rgba(200,60,60,0.76);
-  text-color: rgb(235,30,25);
-  margin:10px;
-        display:inline;
-    
-}
- #IAJR{
-  backgrounhd-image:url(plchlder.png)
-  text-shadow: 6px 5px 5px rgba(64,58,58,0.76);
-     margin:10px;
-       display:inline;
-    
-}
- #PGAA{
-  backgrounhd-image:url(plchlder.png)
-  text-shadow: 6px 5px 5px rgba(64,58,58,0.76);
-     margin:10px;
-       display:inline;
-    
-}
-  </style>
-    <body>
-    <div class="topnav">
-      <a href="pa.html">Performing Arts</a>
-      <a href="va.html">Visual Arts</a>
-      <a class="active">Social Studies</a>
-      <a href="index.html">Home</a>
-    </div>
-    </body>
-  </head>
-  <h1>TEST</h1>
-    <div id="CNTAIN">
-    <div id ="LEABN">
-      <h2><a href="https://youtu.be/KygzK0ixV_Y?si=ELLtAnAH8SdMhEC2">Lorem Ipsum dolorem</a></h2>
-      <br>
-      <h4> By Anton son,Belly,Ellie,Nate,Lucas</h4>
-    </div>
-          <div id ="IAJR">
-               <h2><a href="https://youtu.be/KygzK0ixV_Y?si=ELLtAnAH8SdMhEC2">Lorem Ipsum dolorem</a></h2>
-             <br>
-      <h4> By Ava,Ino,Julian,Rocio</h4>
-          </div>
+  <main class="page">
+    <h1>Campaigns</h1>
+    <p class="desc">Add description</p>
 
-                <div id ="PGAA">
-                     <h2><a href="https://youtu.be/KygzK0ixV_Y?si=ELLtAnAH8SdMhEC2">Lorem Ipsum dolorem</a></h2>
-                   <br>
-      <h4>By Aly,Aoki,Gaeun,Pax</h4>
-                </div>
+    <div class="campaigns">
+      <div class="campaign-card" data-title="1x" data-artist="Anton, Son, Belly, Ellie, Nate, Lucas" data-comment="Add description">
+        <div class="campaign-image" style="background-image: url('https://placehold.co/800x300/2d5a4a/fff?text=1x')"></div>
+        <div class="campaign-info">
+          <span class="campaign-members">Anton, Son, Belly, Ellie, Nate, Lucas</span>
+        </div>
+      </div>
+
+      <div class="campaign-card" data-title="2x" data-artist="Ava, Ino, Julian, Rocio" data-comment="Add description">
+        <div class="campaign-image" style="background-image: url('https://placehold.co/800x300/2d5a4a/fff?text=2x')"></div>
+        <div class="campaign-info">
+          <span class="campaign-members">Ava, Ino, Julian, Rocio</span>
+        </div>
+      </div>
+
+      <div class="campaign-card" data-title="3x" data-artist="Aly, Aoki, Gaeun, Pax" data-comment="Add description">
+        <div class="campaign-image" style="background-image: url('https://placehold.co/800x300/2d5a4a/fff?text=3x')"></div>
+        <div class="campaign-info">
+          <span class="campaign-members">Aly, Aoki, Gaeun, Pax</span>
+        </div>
+      </div>
     </div>
-  
-  
-  </html>
+
+    <div class="campaign-info-panel" id="campaignInfoPanel">
+      <div class="campaign-info-header">
+        <span class="campaign-info-title" id="campaignInfoTitle">-</span>
+        <button class="campaign-info-close" id="campaignInfoClose" aria-label="Close">&times;</button>
+      </div>
+      <div class="campaign-info-artist" id="campaignInfoArtist">-</div>
+      <div class="campaign-info-comment" id="campaignInfoComment">-</div>
+    </div>
+  </main>
+
+  <script src="Javascript.js"></script>
+</body>
+</html>
