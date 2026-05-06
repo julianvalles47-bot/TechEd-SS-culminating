@@ -117,6 +117,7 @@ body {
   min-width: 250px;
   flex: 1 1 250px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-width: 20px;
 }
 
 .item:hover {
