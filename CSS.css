@@ -13,6 +13,12 @@ body {
   line-height: 1.6;
 }
 
+.pavideo {
+  width: 100%; 
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
 .topnav {
   display: flex;
   justify-content: center;
