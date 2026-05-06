@@ -116,12 +116,12 @@ body {
   width: 30%;
   min-width: 250px;
   flex: 1 1 250px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 0 2px #04AA6D;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .item img {
