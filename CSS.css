@@ -121,6 +121,9 @@ body {
 
 .item:hover {
   transform: translateY(-5px);
+  border: 2px;
+  border-color: gray;
+  border-radius: 20px;
 }
 
 .item img {
