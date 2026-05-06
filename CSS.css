@@ -14,7 +14,7 @@ body {
 }
 
 .pavideo {
-  width: 100%; 
+  width: 90%; 
   height: auto;
   overflow: hidden;
   border-radius: 20px;
@@ -107,7 +107,7 @@ body {
   margin: 40px auto;
   gap: 30px;
   max-width: 1200px;
-  padding: 10px 20px;
+  padding: 10% 20px;
   flex-wrap: wrap;
 }
 
