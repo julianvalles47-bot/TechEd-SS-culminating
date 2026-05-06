@@ -95,6 +95,7 @@ body {
 
 .container {
   display: flex;
+  overflow-wrap: break-word;
   justify-content: space-around;
   align-items: flex-start;
   margin: 40px auto;
