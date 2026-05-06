@@ -116,7 +116,8 @@ body {
   width: 30%;
   min-width: 250px;
   flex: 1 1 250px;
-  padding: 0 30%;
+  padding: 0 10%;
+  box-sizing: border-box;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
