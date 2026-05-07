@@ -26,5 +26,5 @@ div2.addEventListener('click', function () {
 
 div3.addEventListener('click', function () {
     document.getElementById('ssdesc').style.visibility = "visible";
-    document.getElementById('ssdesc').innerHTML = 'ijgtjngndgnfgnpuRW'
+    document.getElementById('ssdesc').innerHTML = "<h2>MENTAL STRESS</h2><p>Our campaign creates awareness for those struggling with stress in environments like school, work, and generally in life. We created infographics and posters to show and tell people the effects of stress, why it's important, and what can we do to prevent it.<br>We also created a survey that allows students and others to share their insights and experiences, making us aware of what's happening to those undergoing stress.</p>"
 });
