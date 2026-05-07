@@ -213,8 +213,8 @@ p {
 }
 
 .artwork img {
-  max-width:20px;
-  max-height:20px;
+  max-width:320px;
+  max-height:220px;
   margin-left:100px;
   margin-right:100px;
   
