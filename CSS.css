@@ -17,7 +17,27 @@ body {
     justify-content: center;
     overflow-x: auto;
 }
-
+.artdesc {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: auto;
+}
+.artwork {
+    float: right;
+    margin-left: 20px;
+    width: 20%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
 .scrollcontainer::-webkit-scrollbar {
     display: none;
 }
