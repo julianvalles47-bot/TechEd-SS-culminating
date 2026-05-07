@@ -12,7 +12,64 @@ body {
   color: #2c2a29;
   line-height: 1.6;
 }
+.scrollcontainer {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
 
+.scrollcontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    margin: 70px;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: transform 0.1s ease;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.scrollcontainer h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.clickview {
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sscontainer {
+   
+}
+
+#ssdesc {
+    margin-left: 70px;
+    margin-right: 70px;
+    box-sizing: border-box;
+    visibility: hidden;
+    height: auto;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .indexdesc {
   align-items: center;
   padding: 2% 30%;
