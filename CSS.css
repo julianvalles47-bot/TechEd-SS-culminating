@@ -63,7 +63,7 @@ body {
   color: white;
   font-family: 'Helvetica Neue', sans-serif;
   padding: 0 20px;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%) url("palacebg.jpg") center / cover no-repeat;
+  background-image: url("palacebg.png") center / cover no-repeat;
 }
 
 .titletest {
