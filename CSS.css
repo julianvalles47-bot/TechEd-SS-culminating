@@ -60,11 +60,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: white;
   font-family: 'Helvetica Neue', sans-serif;
   padding: 0 20px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url("5_asfasw112.jpg") center / cover no-repeat;
+  background: url("palacebg.jpg") center / cover no-repeat;
 }
 
 .titletest {
