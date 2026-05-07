@@ -213,11 +213,9 @@ p {
 }
 
 .artwork{
-  display:flex;
-  overflow-x:auto;
-  white-space:nowrap;
-  scroll-snap-type:x mandatory;
-  overflow-y:hidden;
+  width:40px;
+  height:45px;
+  
 }
 
 #CNTAIN {
