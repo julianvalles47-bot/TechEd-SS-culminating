@@ -21,7 +21,7 @@ div1.addEventListener('click', function () {
 
 div2.addEventListener('click', function () {
     document.getElementById('ssdesc').style.visibility = "visible";
-    document.getElementById('ssdesc').innerHTML = 'ijgsfdbdfsbdsbtjorpuRW'
+    document.getElementById('ssdesc').innerHTML = '<h2>BULLYING</h2><p>Our Social Studies campaign is to raise awareness to how common bullying is in Filipino school communities. We are advocating for the awareness of brushed off and different forms of bullying, that most superiors and people in authority dismiss.<br><br>Our campaign explains the types of conflict found in certain bullying scenarios, and we analyze and explain how bullying can happen for any reason, even if it’s nonsensical or even unengaged.</p>'
 });
 
 div3.addEventListener('click', function () {
