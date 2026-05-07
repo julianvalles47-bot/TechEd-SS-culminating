@@ -15,8 +15,9 @@ body {
 
 .indexdesc {
   align-items: center;
-  padding: 10%;
+  padding: 2% 10%;
   box-sizing: border-box;
+  text-align: center;
 }
 .pavideo {
   width: 100%; 
